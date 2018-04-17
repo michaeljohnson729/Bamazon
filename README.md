@@ -22,7 +22,7 @@ Using Bamazon Customer:
 1. Make sure the Bamazon folder is open in Terminal,
 2. Run the app by typing the following command and pressing enter:
     node bamazonCustomer.js
-3. You will be shown the following screen:
+3. You will be shown the following screen:                      
 ![picture of customer interface](assets/bamazoncustomer1.png)
 4. Follow the prompts to "complete your purchase"
 ![picture of customer interface 2](assets/bamazoncustomer2.png)
