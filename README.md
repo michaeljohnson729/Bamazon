@@ -27,3 +27,14 @@ Using Bamazon Customer:
 4. Follow the prompts to "complete your purchase"
 ![picture of customer interface 2](assets/bamazoncustomer2.png)
 5. Answer the prompted question. Selecting "yes" will restart the app. Selecting "no" will quit the app.
+
+Using Bamazon ManagerView:
+
+1. 1. Make sure the Bamazon folder is open in Terminal,
+2. Run the app by typing the following command and pressing enter:
+    node bamazonManager.js
+3. You will be shown the following screen:  
+![manager start](assets/managerstart.png)
+4. Select one of the options.
+5. Selecting "View Products for Sale" will show this screen:       
+![products](assets/products.png)
