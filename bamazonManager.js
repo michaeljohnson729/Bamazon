@@ -1,7 +1,6 @@
 var mysql = require("mysql");
 var inquirer = require("inquirer");
 var cTable = require('console.table');
-
 var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
@@ -16,7 +15,6 @@ connection.connect(function (err) {
 });
 
 function startProgram() {
-
     inquirer.prompt([{
         type: "list",
         message: "What would you like to do?",
@@ -36,9 +34,6 @@ function startProgram() {
             addNew();
         }
     })
-
-
-
 };
 
 function printProducts() {
@@ -47,7 +42,6 @@ function printProducts() {
         console.table(res);
         doMore();
     })
-
 }
 
 function lowInventory() {
@@ -57,7 +51,6 @@ function lowInventory() {
         console.table(res);
         doMore();
     });
-
 }
 
 function addInventory() {
@@ -88,7 +81,7 @@ function addInventory() {
             })
         })
     })
-}
+};
 
 function addNew() {
     inquirer.prompt([{
@@ -114,8 +107,7 @@ function addNew() {
             doMore();
         })
     })
-}
-
+};
 
 function doMore() {
     inquirer.prompt([{
@@ -131,4 +123,4 @@ function doMore() {
             connection.end();
         }
     })
-}
+};

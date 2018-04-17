@@ -30,11 +30,37 @@ Using Bamazon Customer:
 
 Using Bamazon ManagerView:
 
-1. 1. Make sure the Bamazon folder is open in Terminal,
+1. Make sure the Bamazon folder is open in Terminal,
 2. Run the app by typing the following command and pressing enter:
     node bamazonManager.js
 3. You will be shown the following screen:  
 ![manager start](assets/managerstart.png)
 4. Select one of the options.
-5. Selecting "View Products for Sale" will show this screen:       
+
+Selecting "View Products for Sale"
+1. You will be shown this screen showing all the products available for sale:       
 ![products](assets/products.png)
+2. Answer the prompted question. Selecting "yes" will ask you to choose a new action. Selecting "no" will quit the app.
+
+Selecting "View Low Inventory"
+1. You will be shown all of the products for which less than 5 of that item are left in inventory. If nothing is displayed (like shown), all products have an inventory greater than 5.
+![low inventory](assets/lowinventory.png)
+2. Answer the prompted question. Selecting "yes" will ask you to choose a new action. Selecting "no" will quit the app.
+
+Selecting "Add to Inventory"
+This function allows you to add inventory to a specific product.
+1. You will be shown the following screen:            
+![add inventory 1](assets/addinventory1.png)
+2. Follow the prompts to add inventory. You will see this screen when you've successfully added inventory:
+![add inventory 2](assets/addinventory2.png)
+3. Answer the prompted question. Selecting "yes" will ask you to choose a new action. Selecting "no" will quit the app.
+
+Selecting "Add New Product"
+This function adds a new product to the store.
+1. You will be shown the following screen:            
+![add product 1](assets/addproduct1.png)
+2. Enter the details of the product by answering the questions you are prompted with.
+3. When you have finished adding details, you will see this screen, indicating you have added a new product successfully:
+![add product 2](assets/addproduct2.png)
+4. Answer the prompted question. Selecting "yes" will ask you to choose a new action. Selecting "no" will quit the app.
+
